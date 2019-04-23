@@ -10,7 +10,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/
  */
 
-$context = Timber::get_context();
+$context = Timber::context();
 $post = Timber::query_post();
 $context['post'] = $post;
 if (post_password_required($post->ID)) {

@@ -15,7 +15,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/
  */
 
-$context = Timber::get_context();
+$context = Timber::context();
 $post = new TimberPost();
 $context['post'] = $post;
 Timber::render(array('page-' . $post->post_name . '.twig', 'page-' . $post->ID . '.twig', 'page.twig'), $context);

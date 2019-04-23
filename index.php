@@ -15,7 +15,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/
  */
 
-$context = Timber::get_context();
+$context = Timber::context();
 $context['posts'] = new Timber\PostQuery();
 $templates = array('index.twig');
 if (is_home()) {

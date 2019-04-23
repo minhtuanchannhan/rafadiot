@@ -11,5 +11,5 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/
  */
 
-$GLOBALS['timberContext'] = Timber::get_context();
+$GLOBALS['timberContext'] = Timber::context();
 ob_start();

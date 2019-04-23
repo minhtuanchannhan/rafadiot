@@ -16,7 +16,7 @@
  */
 
 $templates = array('archive.twig', 'index.twig');
-$context = Timber::get_context();
+$context = Timber::context();
 if (is_day()) {
     $context['title'] = get_the_date('D M Y');
 } else if (is_month()) {
