@@ -10,7 +10,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/
  */
 
-$templates = array('search.twig', 'archive.twig', 'index.twig');
+$templates = ['search.twig', 'archive.twig', 'index.twig'];
 $context = Timber::context();
 $context['title'] = sprintf(__('Search results for %s', RAF_DOMAIN), get_search_query());
 $context['posts'] = new Timber\PostQuery();

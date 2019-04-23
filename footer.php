@@ -12,10 +12,12 @@
  */
 
 $timberContext = $GLOBALS['timberContext'];
+
 if (!isset($timberContext)) {
     throw new \Exception(__('Timber context not set in footer.', RAF_DOMAIN));
 }
+
 $timberContext['content'] = ob_get_contents();
 ob_end_clean();
-$templates = array('page-plugin.twig');
+$templates = ['page-plugin.twig'];
 Timber::render($templates, $timberContext);

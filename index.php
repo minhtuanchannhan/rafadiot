@@ -17,8 +17,10 @@
 
 $context = Timber::context();
 $context['posts'] = new Timber\PostQuery();
-$templates = array('index.twig');
+$templates = ['index.twig'];
+
 if (is_home()) {
-    array_unshift($templates, 'home.twig');
+	array_unshift($templates, 'home.twig');
 }
+
 Timber::render($templates, $context);
