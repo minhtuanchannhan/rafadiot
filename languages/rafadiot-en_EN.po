@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Rafadiot\n"
-"POT-Creation-Date: 2018-10-16 14:25+0700\n"
-"PO-Revision-Date: 2019-04-23 17:14+0700\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-04-23 17:31+0700\n"
+"PO-Revision-Date: 2019-04-23 17:31+0700\n"
+"Last-Translator: Tuan Le Minh <minhtuanchannhan@gmail.com>\n"
 "Language-Team: Tuan Le Minh <minhtuanchannhan@gmail.com>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -17,19 +17,108 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: assets\n"
 
-#: inc/class-rafadiot.php:188
+#: footer.php:17
+msgid "Timber context not set in footer."
+msgstr ""
+
+#: inc/class-rafadiot.php:346
 msgid "Header menu"
 msgstr ""
 
-#: inc/class-rafadiot.php:189
+#: inc/class-rafadiot.php:347
 msgid "Footer menu"
 msgstr ""
 
-#: inc/functions.php:146 inc/functions.php:149 inc/functions.php:154
-msgid "Invalid key"
-msgstr ""
-
-#: search.php:16
+#: search.php:15
 #, php-format
 msgid "Search results for %s"
+msgstr ""
+
+#: views/404.twig:4
+msgid "Sorry, we couldn't find what you're looking for."
+msgstr ""
+
+#: views/_partials/comment-form.twig:2
+msgid "Add comment"
+msgstr ""
+
+#: views/_partials/comment-form.twig:10
+msgid "Email"
+msgstr ""
+
+#: views/_partials/comment-form.twig:13
+msgid "Name"
+msgstr ""
+
+#: views/_partials/comment-form.twig:16
+msgid "Website"
+msgstr ""
+
+#: views/_partials/comment-form.twig:20
+msgid "Comment"
+msgstr ""
+
+#: views/_partials/comment-form.twig:21
+msgid "Leave a comment..."
+msgstr ""
+
+#: views/_partials/comment-form.twig:26
+msgid "Send"
+msgstr ""
+
+#: views/_partials/comment-form.twig:27
+msgid "Cancel"
+msgstr ""
+
+#: views/_partials/comment-form.twig:28
+msgid "Your comment will be revised by the site if needed."
+msgstr ""
+
+#: views/_partials/comment.twig:2
+#, php-format
+msgid "%s says"
+msgstr ""
+
+#: views/_partials/comment.twig:6
+msgid "Replies"
+msgstr ""
+
+#: views/_partials/pagination.twig:6 views/_partials/pagination.twig:10
+msgid "First"
+msgstr ""
+
+#: views/_partials/pagination.twig:16 views/_partials/pagination.twig:20
+msgid "Previous"
+msgstr ""
+
+#: views/_partials/pagination.twig:38 views/_partials/pagination.twig:42
+msgid "Next"
+msgstr ""
+
+#: views/_partials/pagination.twig:47 views/_partials/pagination.twig:51
+msgid "Last"
+msgstr ""
+
+#: views/single-password.twig:5
+msgid "Password:"
+msgstr ""
+
+#: views/single-password.twig:7
+msgid "Password"
+msgstr ""
+
+#: views/single-password.twig:9
+msgid "Submit"
+msgstr ""
+
+#: views/single.twig:9
+msgid "Edit"
+msgstr ""
+
+#: views/single.twig:11
+msgid "By"
+msgstr ""
+
+#: views/single.twig:30
+msgid "Comments for this post are closed"
 msgstr ""
